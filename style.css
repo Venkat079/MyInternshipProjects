@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.main-head {
+  color: blue;
+}
+
+.main {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.box1,
+.box2,
+.box3 {
+  margin: 1rem;
+  min-width: 300px;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.price1,
+.price2,
+.price3 {
+  background-color: lightblue;
+  border: 1px solid gray;
+  border-radius: 25px;
+  padding: 1rem;
+}
+
+.button1 {
+  display: block;
+  margin: auto;
+  padding: 0.5rem 2rem;
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(12, 12, 43);
+  color: white;
+  cursor: pointer;
+}
+
+.button1:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  transition: cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition-duration: 0.5s;
+}
+
+.tag {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.icon {
+  margin-right: 0.5rem;
+}
+
+.box-info1 {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.all {
+  color: rgb(50, 49, 49);
+}
+
+.last-para {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+}
